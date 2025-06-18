@@ -13,14 +13,14 @@ This tool helps developers and students understand **where** and **how** implici
 ---
 
 📁 Directory Structure
-#implicit-ctor-checker/
-#├── CMakeLists.txt # Build configuration for the tool
-#├── ImplicitCtorReporter.cpp # Main source file for the Clang AST-based plugin
-#├── test.cpp # Sample C++ test file
-#├── test2.cpp # More test files to validate behavior
-#├── test3.cpp
-#├── ...
-#└── README.md # This file
+implicit-ctor-checker/
+├── CMakeLists.txt # Build configuration for the tool
+├── ImplicitCtorReporter.cpp # Main source file for the Clang AST-based plugin
+├── test.cpp # Sample C++ test file
+├── test2.cpp # More test files to validate behavior
+├── test3.cpp
+├── ...
+└── README.md # This file
 
 🔧Building the Plugin
 cd /home/ubuntu/work/projects/assignments/implicit-ctor-checker/
