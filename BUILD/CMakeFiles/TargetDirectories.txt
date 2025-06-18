@@ -1,9 +1,0 @@
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/intrinsics_gen.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/vt_gen.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/omp_gen.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/acc_gen.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/target_parser_gen.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/clang-tablegen-targets.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/implicit_ctor.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/edit_cache.dir
-/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD/CMakeFiles/rebuild_cache.dir

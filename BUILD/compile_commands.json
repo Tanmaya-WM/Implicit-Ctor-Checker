@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/home/ubuntu/work/projects/assignments/implicit-ctor-checker/BUILD",
-  "command": "/usr/bin/c++  -I/home/ubuntu/work/projects/llvm_install/include -std=gnu++17   -D_GNU_SOURCE -D_DEBUG -D_GLIBCXX_ASSERTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/implicit_ctor.dir/ImplicitCtorReporter.cpp.o -c /home/ubuntu/work/projects/assignments/implicit-ctor-checker/ImplicitCtorReporter.cpp",
-  "file": "/home/ubuntu/work/projects/assignments/implicit-ctor-checker/ImplicitCtorReporter.cpp",
-  "output": "CMakeFiles/implicit_ctor.dir/ImplicitCtorReporter.cpp.o"
-}
-]
