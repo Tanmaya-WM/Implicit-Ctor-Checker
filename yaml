@@ -1,0 +1,31 @@
+
+---
+
+## ⚙️ Build Instructions
+
+### ✅ Prerequisites
+
+- LLVM and Clang (v15 or higher, built from source with RTTI enabled)
+- CMake (>= 3.13)
+- Ninja build system
+- Linux environment (tested on Ubuntu 24.04 in VMware)
+
+---
+
+### 🧱 Building LLVM & Clang (once)
+
+```bash
+cd /home/ubuntu/work/projects/
+git clone https://github.com/llvm/llvm-project.git
+cd llvm-project
+mkdir BUILD && cd BUILD
+cmake -G "Eclipse CDT4 - Ninja" \
+  -DCMAKE_BUILD_TYPE=Release \
+  -DCMAKE_INSTALL_PREFIX=/home/ubuntu/work/projects/llvm_install \
+  -DLLVM_ENABLE_RTTI=ON \
+  -DLLVM_ENABLE_ASSERTIONS=ON \
+  -DLLVM_ENABLE_PROJECTS="clang;lld" \
+  -DLLVM_ENABLE_NEW_PASS_MANAGER=ON \
+  -DLLVM_TARGETS_TO_BUILD=host ../llvm
+ninja
+ninja install
